@@ -1,7 +1,7 @@
 # Classe Startup.cs no .NET Core 6
 Ela nunca foi obrigatória, mas surgiu para organizar o nosso projeto. Porém, a partir da versão do .NET Core 6 por padrão ela já não é mais criada. No entanto, isso não impede de você implementá-la. Isso poderá lhe ser útil caso precise migrar um projeto antigo para a nova versão do .NET Core.
 
-Conteúdo extraído do curso [marquescharlon/Full-Stack-Developer](https://github.com/marquescharlon/Full-Stack-Developer).
+Conteúdo extraído com base no curso [marquescharlon/Full-Stack-Developer](https://github.com/marquescharlon/Full-Stack-Developer).
 
 ## 1. Criar a classe Startup.cs
 
