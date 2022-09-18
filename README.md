@@ -24,7 +24,7 @@ namespace myApp
 }
 ```
 
-## 2. Adaptando a classe "Startup.cs"
+## 2. Adaptar a classe "Startup.cs"
 Só a estrutura básica da classe "Startup.cs" não irá funcionar. Então, precisamos extrair da classe "Program.cs" o conteúdo que virá para nosso novo arquivo e ficará da seguinte forma:
 
 ```
