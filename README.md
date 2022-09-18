@@ -32,34 +32,27 @@ namespace myApp
 {
     public class Startup : IStartup
     {
-        public Startup(IConfiguration configuration)
-        {
-
-        }
-
-
+        public Startup(IConfiguration configuration) { }
         public IConfiguration Configuration { get; }
-
+        
+        // Aqui você configura os serviços, seus middlewares
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
         }
-
+        
+        // Aqui você diz que quer usar seus middlewares
         public void Configure(WebApplication app, IWebHostEnvironment environment)
         {
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
-
             app.MapControllers();
         }
     }
@@ -70,7 +63,7 @@ namespace myApp
         void Configure(WebApplication app, IWebHostEnvironment environment);
         void ConfigureServices(IServiceCollection services);
     }
-
+    
     public static class StartupExtensions
     {
         public static WebApplicationBuilder UseStartup<TStartup>(this WebApplicationBuilder WebAppBuilder) where TStartup : IStartup
