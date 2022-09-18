@@ -32,7 +32,10 @@ namespace myApp
 {
     public class Startup : IStartup
     {
-        public Startup(IConfiguration configuration) { }
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
         public IConfiguration Configuration { get; }
         
         // Aqui você configura os serviços, seus middlewares
