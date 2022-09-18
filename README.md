@@ -5,8 +5,8 @@ Conteúdo extraído com base no curso [marquescharlon/Full-Stack-Developer](http
 
 ## 1. Criar a classe Startup.cs
 
-Na pasta raiz do seu projeto crie um novo arquivo do tipo "Class" seguindo o caminho no Visual Studio: <br>
-`Add > New item > "Startup.cs"`
+Na pasta raiz do seu projeto crie um novo arquivo do tipo **Class** seguindo o caminho no Visual Studio: <br>
+`Add > New item > Startup.cs`
 
 > A título de curiosidade, a estrutura básica da Startup.cs é:
 
@@ -24,8 +24,8 @@ namespace myApp
 }
 ```
 
-## 2. Adaptar a classe "Startup.cs"
-Só a estrutura básica da classe "Startup.cs" não irá funcionar. Então, precisamos extrair da classe "Program.cs" o conteúdo que virá para nosso novo arquivo e ficará da seguinte forma:
+## 2. Adaptar a classe Startup.cs
+Só a estrutura básica da classe Startup.cs não irá funcionar. Então, precisamos extrair da classe Program.cs o conteúdo que virá para nosso novo arquivo e ficará da seguinte forma:
 
 ```
 namespace myApp
@@ -84,8 +84,8 @@ namespace myApp
 }
 ```
 
-## 3. Classe "Program.cs"
-Agora, nesse arquivo iremos apagar tudo e apenas chamar a "Startup.cs" da seguinte forma:
+## 3. Classe Program.cs
+Agora, nesse arquivo iremos apagar tudo e apenas chamar a Startup.cs da seguinte forma:
 
 ```
 using myApp;
@@ -95,4 +95,4 @@ var builder = WebApplication.CreateBuilder(args)
 ```
 
 # Conclusão
-Com apenas essas alterações sua aplicação funcionará normalmente, agora, contendo sua classe "Startup.cs" facilitando a migração de uma aplicação antiga para o .NET Core 6.
+Com apenas essas alterações sua aplicação funcionará normalmente, agora, contendo sua classe **Startup.cs** facilitando a migração de uma aplicação antiga para o **.NET Core 6**.
