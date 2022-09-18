@@ -5,7 +5,7 @@ Conteúdo extraído do curso [marquescharlon/Full-Stack-Developer](https://githu
 
 ## 1. Criar a classe Startup.cs
 
-Na pasta raiz do seu projeto crie um novo arquivo do tipo "Class" seguindo o caminho no Visual Studio: 
+Na pasta raiz do seu projeto crie um novo arquivo do tipo "Class" seguindo o caminho no Visual Studio: <br>
 `Add > New item > "Startup.cs"`
 
 > A título de curiosidade, a estrutura básica da Startup.cs é:
