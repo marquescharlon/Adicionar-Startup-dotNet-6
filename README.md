@@ -1,5 +1,5 @@
-# Classe Startup.cs no .NET Core 6
-Ela nunca foi obrigatória, mas surgiu para organizar o nosso projeto. Porém, a partir da versão do .NET Core 6 por padrão ela já não é mais criada. No entanto, isso não impede de você implementá-la. Isso poderá lhe ser útil caso precise migrar um projeto antigo para a nova versão do .NET Core.
+# Classe Startup.cs no .NET 6
+Ela nunca foi obrigatória, mas surgiu para organizar o nosso projeto. Porém, a partir da versão do .NET 6 por padrão ela já não é mais criada. No entanto, isso não impede de você implementá-la. Isso poderá lhe ser útil caso precise migrar um projeto antigo.
 
 [marquescharlon/Full-Stack-Developer](https://github.com/marquescharlon/Full-Stack-Developer)
 
@@ -98,4 +98,4 @@ var builder = WebApplication.CreateBuilder(args)
 ```
 
 # Conclusão
-Com apenas essas alterações sua aplicação funcionará normalmente, agora, contendo sua classe **Startup.cs** facilitando a migração de uma aplicação antiga para o **.NET Core 6**.
+Com apenas essas alterações sua aplicação funcionará normalmente, agora, contendo sua classe **Startup.cs** facilitando a migração de uma aplicação antiga para o **.NET 6**.
